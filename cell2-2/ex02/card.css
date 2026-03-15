@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
+    font-family:Arial;
+}
+
+/* CARD */
+.card{
+    width:280px;
+    background:#1c1c1c;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    color:white;
+}
+
+/* IMMAGINE */
+.avatar{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+/* TESTI */
+h2{
+    margin:5px 0;
+}
+
+.sub{
+    color:#aaa;
+    margin:5px 0;
+}
+
+.city{
+    font-size:12px;
+    color:#777;
+    margin-bottom:15px;
+}
+
+/* SOCIAL */
+.social img{
+    width:22px;
+    margin:8px;
+    filter:invert(1);
+}
+
+/* BOTTONE */
+button{
+    margin-top:15px;
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    color:black;
+    font-weight:bold;
+}

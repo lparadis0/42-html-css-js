@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+}
+
+td {
+    padding: 20%;
+}
+
+.left {
+    background-color:darkolivegreen;
+}
+
+.right {
+    background-color:dodgerblue;
+}

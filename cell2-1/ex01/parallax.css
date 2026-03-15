@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+/* impostazioni comuni alle due immagini */
+.immagine1, .immagine2 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* prima immagine */
+.immagine1 {
+    background-image: url("immagine1.jpg");
+}
+
+/* seconda immagine */
+.immagine2 {
+    background-image: url("immagine2.jpg");
+}
+
+/* blocco centrale nero */
+.section {
+    height: 300px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* testo sopra le immagini */
+.text {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 200px;
+}
